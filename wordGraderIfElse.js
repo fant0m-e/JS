@@ -8,7 +8,6 @@ function wordSearch () {
       ) .indexOf("freedom") > -1 
     ) {
         cons++;
-        break;
     }
     if (
       (
@@ -16,7 +15,6 @@ function wordSearch () {
       ).indexOf("socialism") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -24,7 +22,6 @@ function wordSearch () {
       ).indexOf("socialist") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -32,7 +29,6 @@ function wordSearch () {
       ).indexOf("socialists") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -40,7 +36,6 @@ function wordSearch () {
       ).indexOf("marxism") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -48,7 +43,6 @@ function wordSearch () {
       ).indexOf("marxist") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -56,7 +50,6 @@ function wordSearch () {
       ).indexOf("marxists") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -64,7 +57,6 @@ function wordSearch () {
       ).indexOf("china") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -72,7 +64,6 @@ function wordSearch () {
       ).indexOf("nation") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -80,7 +71,6 @@ function wordSearch () {
       ).indexOf("God") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -88,7 +78,6 @@ function wordSearch () {
       ).indexOf("Hunter Biden") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -96,7 +85,6 @@ function wordSearch () {
       ).indexOf("Hillary") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -104,7 +92,6 @@ function wordSearch () {
       ).indexOf("benghazi") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -112,7 +99,6 @@ function wordSearch () {
       ).indexOf("antifa") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -120,7 +106,6 @@ function wordSearch () {
       ).indexOf("blm") > -1 
     ) {
         cons++;
-        break;
     }
         if (
       (
@@ -128,7 +113,6 @@ function wordSearch () {
       ).indexOf("fascism") > -1 
     ) {
         lib++;
-        break;
     }
         if (
       (
@@ -136,7 +120,6 @@ function wordSearch () {
       ).indexOf("fascist") > -1 
     ) {
         lib++;
-        break;
     }
         if (
       (
@@ -144,7 +127,6 @@ function wordSearch () {
       ).indexOf("fascists") > -1 
     ) {
         lib++;
-        break;
     }
         if (
       (
@@ -152,7 +134,6 @@ function wordSearch () {
       ).indexOf("racism") > -1 
     ) {
         lib++;
-        break;
     }
         if (
       (
@@ -160,7 +141,6 @@ function wordSearch () {
       ).indexOf("racist") > -1 
     ) {
         lib++;
-        break;
     }
         if (
       (
@@ -168,7 +148,6 @@ function wordSearch () {
       ).indexOf("racists") > -1 
     ) {
         lib++;
-        break;
     }
         if (
       (
@@ -176,7 +155,6 @@ function wordSearch () {
       ).indexOf("lgbtq") > -1 
     ) {
         lib++;
-        break;
     }
         if (
       (
@@ -184,7 +162,6 @@ function wordSearch () {
       ).indexOf("ableism") > -1 
     ) {
         lib++;
-        break;
     }
         if (
       (
@@ -192,7 +169,6 @@ function wordSearch () {
       ).indexOf("Jan 6th") > -1 
     ) {
         lib++;
-        break;
     }
         if (
       (
@@ -200,7 +176,6 @@ function wordSearch () {
       ).indexOf("insurrection") > -1 
     ) {
         lib++;
-        break;
     }
 
     if (cons >= lib + 6) {
@@ -219,3 +194,5 @@ function wordSearch () {
         return "Slightly Liberal";
     }
 }
+
+wordSearch();
